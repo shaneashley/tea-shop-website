@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+border: 0;
+box-sizing: border-box;
+font-family: 'Oswald', sans-serif;
+}
+
+.hero__section {
+    background-image: url("https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding-right: 5%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow: 4px 4px black;
+}
+
+nav {
+  position: fixed;
+}
+
+
+.display-1 {
+  font-weight: bold;
+  color: black;
+ 
+}
+
+.about__us {
+    background-image: url("https://images.unsplash.com/photo-1508014861016-f37cdf89e94d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding: 15%;
+}
+
+.about__btn {
+margin: auto;
+}
+
+button {
+    padding: 5px;
+    width: 150px;
+    justify-content: center;
+    display: flex;
+  margin-right: 50%;
+}
+
+.our__specialty {
+ 
+    height: max-content; 
+    text-align: center;
+    padding: 5%;
+    background-color: #7c543777;
+    
+
+    
+
+}
+
+#our__specialty__two, #our__specialty__three, #our__specialty__four {
+    display: flex;
+    flex-direction: row;
+   display: none;
+
+
+
+}
+
+
+.our__specialty__img{
+    width: 300px;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+ 
+  
+
+}
+
+.our__specialty__img:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+span {
+    color: yellow;
+}
+
+ul  {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+  
+li {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.our__specialty__one a {
+    color: black;
+    text-decoration: none;
+}
+
+.sec_opening__hours {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 10%;
+
+
+    background-image: url("https://images.unsplash.com/photo-1607613982330-4acfb339788b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+   background-size: cover;
+    color: white;
+    text-shadow: 2px 2px black;
+    
+}
+.book__now {
+  padding-top: 10% ;
+}
+.opening__hours {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10% 5%;
+}
+
+.opening__hours > article {
+    padding: 5%;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 5%;
+    text-align: center;
+    height: max-content; 
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+
+.testimonial-container {
+   
+    color: black;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 50px 80px;
+    max-width: 768px;
+    position: relative;
+    
+    height: max-content; 
+  }
+  
+  .fa-quote {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 28px;
+    position: absolute;
+    top: 70px;
+  }
+  
+  .fa-quote-right {
+    left: 40px;
+  }
+  
+  .fa-quote-left {
+    right: 40px;
+  }
+  
+  .testimonial {
+    line-height: 28px;
+    text-align: justify;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user .user-image {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+  }
+  
+  .user .user-details {
+    margin-left: 10px;
+  }
+  
+  .user .username {
+    margin: 0;
+  }
+  
+  .user .role {
+    font-weight: normal;
+    margin: 10px 0;
+  }
+  
+  .progress-bar {
+    background-color: #fff;
+    color: black;
+    height: 4px;
+    width: 100%;
+    animation: grow 10s linear infinite;
+    transform-origin: left;
+  }
+  
+  @keyframes grow {
+    0% {
+      transform: scaleX(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .testimonial-container {
+      padding: 20px 30px;
+    }
+  
+    .fa-quote {
+      display: none;
+    }
+  }
+
+  .testimonial__section {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      background-color: #7c543777;
+  }
+
+  .display-2 {
+      text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    padding: 5px;
+  }
+
+  span {
+      font-size: 30px;
+  }
+  button a:hover {
+background-color: brown;
+  }
